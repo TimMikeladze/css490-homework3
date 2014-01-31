@@ -24,25 +24,26 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080012;
-        public static final int button_calculate=0x7f08000c;
-        public static final int button_cycling=0x7f080011;
-        public static final int button_fast=0x7f08000b;
-        public static final int button_medium=0x7f08000a;
-        public static final int button_running=0x7f080010;
-        public static final int button_slow=0x7f080009;
-        public static final int button_walking=0x7f08000f;
-        public static final int edittext_time=0x7f080005;
-        public static final int edittext_weight=0x7f080006;
-        public static final int layout_row_1=0x7f080000;
-        public static final int layout_row_2=0x7f080001;
-        public static final int layout_row_3=0x7f080004;
-        public static final int layout_row_4=0x7f080007;
-        public static final int layout_row_5=0x7f08000d;
-        public static final int radiogroup_activities=0x7f08000e;
-        public static final int radiogroup_paces=0x7f080008;
-        public static final int textview_time=0x7f080002;
-        public static final int textview_weight=0x7f080003;
+        public static final int action_settings=0x7f080013;
+        public static final int button_calculate=0x7f08000d;
+        public static final int button_cycling=0x7f080012;
+        public static final int button_fast=0x7f08000c;
+        public static final int button_medium=0x7f08000b;
+        public static final int button_running=0x7f080011;
+        public static final int button_slow=0x7f08000a;
+        public static final int button_walking=0x7f080010;
+        public static final int edittext_time=0x7f080006;
+        public static final int edittext_weight=0x7f080007;
+        public static final int layout_main=0x7f080000;
+        public static final int layout_row_1=0x7f080001;
+        public static final int layout_row_2=0x7f080002;
+        public static final int layout_row_3=0x7f080005;
+        public static final int layout_row_4=0x7f080008;
+        public static final int layout_row_5=0x7f08000e;
+        public static final int radiogroup_activities=0x7f08000f;
+        public static final int radiogroup_paces=0x7f080009;
+        public static final int textview_time=0x7f080003;
+        public static final int textview_weight=0x7f080004;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;

@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/layout_main"
     android:gravity="center_horizontal"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -69,13 +70,15 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:inputType="numberDecimal" />
 
         <EditText
             android:id="@+id/edittext_weight"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:inputType="numberDecimal" />
     </LinearLayout>
 
     <LinearLayout
@@ -89,7 +92,7 @@
         android:gravity="center_horizontal|left"
         android:orientation="horizontal" >
 
-        <RadioGroup
+        <com.css490.homework3.views.CustomRadioGroup
             android:id="@+id/radiogroup_paces"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -101,7 +104,6 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:checked="false"
-                android:onClick="setSlow"
                 android:textOff="Slow"
                 android:textOn="Slow"
                 android:textSize="14sp" />
@@ -112,7 +114,6 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:checked="true"
-                android:onClick="setMedium"
                 android:textOff="Med"
                 android:textOn="Med"
                 android:textSize="14sp" />
@@ -123,11 +124,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:checked="false"
-                android:onClick="setFast"
                 android:textOff="Fast"
                 android:textOn="Fast"
                 android:textSize="14sp" />
-        </RadioGroup>
+        </com.css490.homework3.views.CustomRadioGroup>
 
         <Button
             android:id="@+id/button_calculate"
@@ -151,7 +151,7 @@
         android:gravity="center_horizontal|left"
         android:orientation="horizontal" >
 
-        <RadioGroup
+        <com.css490.homework3.views.CustomRadioGroup
             android:id="@+id/radiogroup_activities"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -163,7 +163,6 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:checked="false"
-                android:onClick="setWalking"
                 android:textOff="Walking"
                 android:textOn="Walking"
                 android:textSize="14sp" />
@@ -174,7 +173,6 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:checked="true"
-                android:onClick="setRuning"
                 android:textOff="Running"
                 android:textOn="Running"
                 android:textSize="14sp" />
@@ -185,12 +183,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:checked="false"
-                android:onClick="setCycling"
                 android:textOff="Cycling"
                 android:textOn="Cycling"
                 android:textSize="14sp" />
-        </RadioGroup>
-
+        </com.css490.homework3.views.CustomRadioGroup>
     </LinearLayout>
 
 </RelativeLayout>

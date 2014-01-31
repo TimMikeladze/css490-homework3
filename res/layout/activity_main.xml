@@ -1,8 +1,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/layout_main"
+    android:background="@drawable/app_background"
     android:gravity="center_horizontal"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -92,7 +93,7 @@
         android:gravity="center_horizontal|left"
         android:orientation="horizontal" >
 
-        <com.css490.homework3.views.CustomRadioGroup
+        <com.css490.homework3.views.ButtonGroup
             android:id="@+id/radiogroup_paces"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -127,7 +128,7 @@
                 android:textOff="Fast"
                 android:textOn="Fast"
                 android:textSize="14sp" />
-        </com.css490.homework3.views.CustomRadioGroup>
+        </com.css490.homework3.views.ButtonGroup>
 
         <Button
             android:id="@+id/button_calculate"
@@ -137,7 +138,7 @@
             android:layout_marginLeft="10dp"
             android:onClick="calculate"
             android:text="Calculate"
-            android:textSize="12sp" />
+            android:textSize="14sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -151,7 +152,7 @@
         android:gravity="center_horizontal|left"
         android:orientation="horizontal" >
 
-        <com.css490.homework3.views.CustomRadioGroup
+        <com.css490.homework3.views.ButtonGroup
             android:id="@+id/radiogroup_activities"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -186,7 +187,7 @@
                 android:textOff="Cycling"
                 android:textOn="Cycling"
                 android:textSize="14sp" />
-        </com.css490.homework3.views.CustomRadioGroup>
+        </com.css490.homework3.views.ButtonGroup>
     </LinearLayout>
 
 </RelativeLayout>

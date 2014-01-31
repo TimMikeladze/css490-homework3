@@ -78,6 +78,7 @@ public class MainActivity extends Activity implements OnTouchListener, OnEditorA
 	 * @param v the view clicked
 	 */
 	public void calculate(View v) {
+		inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
 		if (EditTextValidator.isNumericPositive(timeEditText) && EditTextValidator.isNumericPositive(weightEditText)) {
 			double time = Double.parseDouble(timeEditText.getText()
 															.toString());
